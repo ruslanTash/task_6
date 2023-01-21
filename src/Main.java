@@ -1,8 +1,8 @@
 public class Main {
     public static String getArrChange(int[] arr){
-        for (int i : arr){
-            if(i % 2 == 0){
-                i++;
+        for (int i = 0; i < arr.length; i++){
+            if(arr[i] % 2 == 0){
+                arr[i]++;
             }
         }
         String get = "";
@@ -17,3 +17,4 @@ public class Main {
         System.out.println(arrChange);
     }
 }
+
